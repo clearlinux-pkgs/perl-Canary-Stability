@@ -4,7 +4,7 @@
 #
 Name     : perl-Canary-Stability
 Version  : 2012
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/Canary-Stability-2012.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/Canary-Stability-2012.tar.gz
 Summary  : CPAN/Canary-Stability - canary to check perl compatability for schmorp's modules
