@@ -4,10 +4,10 @@
 #
 Name     : perl-Canary-Stability
 Version  : 2012
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/Canary-Stability-2012.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/Canary-Stability-2012.tar.gz
-Summary  : unknown
+Summary  : CPAN/Canary-Stability - canary to check perl compatability for schmorp's modules
 Group    : Development/Tools
 License  : Artistic-1.0 GPL-1.0
 Requires: perl-Canary-Stability-license = %{version}-%{release}
@@ -22,6 +22,7 @@ modules
 Summary: dev components for the perl-Canary-Stability package.
 Group: Development
 Provides: perl-Canary-Stability-devel = %{version}-%{release}
+Requires: perl-Canary-Stability = %{version}-%{release}
 
 %description dev
 dev components for the perl-Canary-Stability package.
