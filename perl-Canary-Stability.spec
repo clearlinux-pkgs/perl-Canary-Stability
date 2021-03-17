@@ -4,7 +4,7 @@
 #
 Name     : perl-Canary-Stability
 Version  : 2013
-Release  : 16
+Release  : 17
 URL      : https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/Canary-Stability-2013.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/Canary-Stability-2013.tar.gz
 Summary  : unknown
@@ -97,4 +97,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Canary/Stability.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Canary/Stability.pm
